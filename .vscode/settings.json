@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "C:\\Users\\PHB6HC\\.conda\\envs\\test_venv\\python.exe",
+    "python.linting.pylintArgs": ["--disable={C0103}"]
+}

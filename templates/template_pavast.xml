@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+    <!DOCTYPE MSRSW PUBLIC "-//MSR//DTD MSR SOFTWARE DTD:V2.2.2:RB17:LAI:IAI:XML:MSRSW.DTD//EN" "msrsw_v222_rb17.xml.dtd">
+    <MSRSW>
+      <CATEGORY>PaVaSt</CATEGORY>
+      <ADMIN-DATA>
+    <LANGUAGE>en</LANGUAGE>
+    <COMPANY-DOC-INFOS>
+      <COMPANY-DOC-INFO>
+        <COMPANY-REF>RB</COMPANY-REF>
+        <SDGS>
+          <SDG GID="RBHead-eASEE-Keywords">
+            <SD GID="Filename">smb_pavast.xml</SD>
+            <SD GID="Author"/>
+            <SD GID="Function"></SD>
+            <SD GID="Domain"></SD>
+            <SD GID="User">_SMB</SD>
+            <SD GID="Date"></SD>
+            <SD GID="Class">TDATA</SD>
+            <SD GID="Name"></SD>
+            <SD GID="Variant"></SD>
+            <SD GID="Revision"></SD>
+            <SD GID="Type">XML</SD>
+            <SD GID="State"></SD>
+            <SD GID="UniqueName"/>
+            <SD GID="Component"/>
+            <SD GID="Generated"/>
+            <SD GID="FDEF"/>
+            <SD GID="History">Dummy File created for SMB tool usage</SD>
+          </SDG>
+        </SDGS>
+      </COMPANY-DOC-INFO>
+    </COMPANY-DOC-INFOS>
+      </ADMIN-DATA>
+      <SW-SYSTEMS>
+    <SW-SYSTEM>
+      <SHORT-NAME>MEDC17</SHORT-NAME>
+      <SW-DATA-DICTIONARY-SPEC>
+        <SW-VARIABLES>
+        </SW-VARIABLES>
+        <SW-SYSTEMCONSTS>
+        </SW-SYSTEMCONSTS>
+        <SW-COMPU-METHODS>
+        </SW-COMPU-METHODS>
+        <SW-DATA-CONSTRS>
+        </SW-DATA-CONSTRS>
+        <SW-SERVICES>
+        </SW-SERVICES>
+        <SW-CLASSES>
+        </SW-CLASSES>
+      </SW-DATA-DICTIONARY-SPEC>
+      <SW-COMPONENT-SPEC>
+        <SW-COMPONENTS>
+          <SW-FEATURE>
+            <SHORT-NAME>SMB</SHORT-NAME>
+            <CATEGORY>FCT</CATEGORY>
+            <SW-DATA-DICTIONARY-SPEC>
+            </SW-DATA-DICTIONARY-SPEC>
+            <SW-FEATURE-OWNED-ELEMENTS>
+              <SW-FEATURE-ELEMENTS>
+                <SW-CLASS-REFS>
+                </SW-CLASS-REFS>
+                <SW-COMPU-METHOD-REFS>
+                </SW-COMPU-METHOD-REFS>
+                <SW-SERVICE-REFS>
+                </SW-SERVICE-REFS>
+                <SW-SYSTEMCONST-REFS>
+                </SW-SYSTEMCONST-REFS>
+                <SW-VARIABLE-REFS>
+                </SW-VARIABLE-REFS>
+              </SW-FEATURE-ELEMENTS> 
+            </SW-FEATURE-OWNED-ELEMENTS>
+            <SW-FEATURE-INTERFACES>
+              <SW-FEATURE-INTERFACE>
+                <SHORT-NAME>SMB_Ex</SHORT-NAME>
+                <CATEGORY>EXPORT</CATEGORY>
+                <SW-INTERFACE-EXPORTS>
+                  <SW-INTERFACE-EXPORT>
+                    <SW-INTERFACE-EXPORT-SCOPE>
+                      <SW-INTERFACE-EXPORT-LEVEL>PARENT</SW-INTERFACE-EXPORT-LEVEL>
+                    </SW-INTERFACE-EXPORT-SCOPE>
+                    <SW-FEATURE-ELEMENTS>
+                <SW-CLASS-REFS>
+                </SW-CLASS-REFS>
+                <SW-SERVICE-REFS>
+                </SW-SERVICE-REFS>
+                <SW-SYSTEMCONST-REFS>
+                </SW-SYSTEMCONST-REFS>
+                <SW-VARIABLE-REFS>
+                </SW-VARIABLE-REFS>
+              </SW-FEATURE-ELEMENTS>
+                  </SW-INTERFACE-EXPORT>
+                </SW-INTERFACE-EXPORTS>
+              </SW-FEATURE-INTERFACE>
+              <SW-FEATURE-INTERFACE>
+                <SHORT-NAME>SMB_Im</SHORT-NAME>
+                <CATEGORY>IMPORT</CATEGORY>
+    				<!--	Import section will not be used in the first version of the tool	!-->
+                <SW-INTERFACE-IMPORTS>
+                  <SW-INTERFACE-IMPORT>
+                    <SW-FEATURE-ELEMENTS>
+              </SW-FEATURE-ELEMENTS>
+                  </SW-INTERFACE-IMPORT>
+                </SW-INTERFACE-IMPORTS>
+              </SW-FEATURE-INTERFACE>
+            </SW-FEATURE-INTERFACES>
+          </SW-FEATURE>
+        </SW-COMPONENTS>
+      </SW-COMPONENT-SPEC>
+      <SW-INSTANCE-SPEC>
+        <SW-INSTANCE-TREE>
+          <SHORT-NAME>SMB</SHORT-NAME>
+          <CATEGORY>TEST_INIT_VALUES</CATEGORY>
+    				<!--	Instance tree section will not be used in the first version of the tool	!-->
+    		  </SW-INSTANCE-TREE>
+      </SW-INSTANCE-SPEC>
+      <SW-COLLECTION-SPEC>
+        <SW-COLLECTIONS>
+          <SW-COLLECTION>
+            <SHORT-NAME>H_C_FILES</SHORT-NAME>
+            <CATEGORY>PROCOL_COMP</CATEGORY>
+            <SW-COLLECTION-CONT>
+              <SW-FEATURE-REFS>
+                <SW-FEATURE-REF>SMB</SW-FEATURE-REF>
+              </SW-FEATURE-REFS>
+            </SW-COLLECTION-CONT>
+          </SW-COLLECTION>
+        </SW-COLLECTIONS>
+      </SW-COLLECTION-SPEC>
+    </SW-SYSTEM>
+      </SW-SYSTEMS>
+    </MSRSW>
